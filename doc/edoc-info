@@ -1,0 +1,3 @@
+{application,opscoderl_folsom}.
+{packages,[]}.
+{modules,[oc_folsom]}.

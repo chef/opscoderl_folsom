@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+{application, opscoderl_folsom,
+ [
+  {description, "Opscode Helpers for instrumenting Erlang apps with folsom metrics"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  %% uncomment if this is an active application
+  %% {mod, { opscoderl_folsom_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
